@@ -1,0 +1,66 @@
+
+body { 
+    background: url("../images/foxengine.jpg") repeat 0 0;
+    font-family: OCR A Std, monospace;
+    color: white;
+}
+.title {
+    margin-top: 20px;
+    padding: 20px;
+}
+.gameDirections {
+    border-style: dashed;
+    border-color: white;
+    border-width: 5px;
+    padding: 5px;
+}
+.scoreBoard {
+    margin-top: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    padding: 5px;
+}
+.gameNumber {
+    border-style: groove;
+    border-color: white;
+    border-width: 5px;
+    padding: 5px;
+    height: 150px;
+    width: 200px;
+}
+.WinsLosses {
+    border-style: groove;
+    border-color: white;
+    border-width: 5px;
+    padding: 5px;
+    height: 150px;
+    width: 200px;
+}
+.userNumber {
+    border-style: groove;
+    border-color: white;
+    border-width: 5px;
+    padding: 5px;
+    height: 150px;
+    width: 200px;
+    
+}
+
+.button-item {
+    margin-top: 20px;
+    height: 300px;
+    width: 200px;
+}
+#member1 {
+    background: url("../images/SnakeMGS.jpg");
+}
+#member2 {
+    background: url("../images/Miller.gif");
+}
+#member3 {
+    background: url("../images/RaidenMGS1.jpg");
+}
+#member4 {
+    background: url("../images/MeiLing.gif");
+}

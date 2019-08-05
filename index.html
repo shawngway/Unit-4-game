@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unit-4-game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container gameconsole">
+        <div class="row title">
+            <div class="col-xs-3">
+                <h1>FoxEngineDecoder</h1>
+            </div>
+        </div>
+
+        <div class="row gameDirections">
+            <div class="col-xs-5">
+                <p>You will be given a encrypted number at the start of the game.<br><br>There are four fox members below.
+                    By
+                    clicking on a member you will add a specific amount of points to your decryption points.<br><br>You win
+                    the
+                    game by matching your decryption points to the coded message, and you lose the game if your decryption points
+                    go
+                    above the coded message.<br><br>The Value of each member is hidden from you until you click on
+                    them.<br><br>Each time when the game starts, the game will change the value of each
+                    member.<br><br>Who will you contact for help?</p>
+            </div>
+        </div>
+        <div class="row scoreBoard">
+            <div class="col-xs-3 gameNumber">Coded Message<br><br><br><span id="gameChoice">0</span></div>
+            <div class="col-xs-1 WinsLosses">Wins:<span id="wins"> 0</span> <br><br><br>Losses:<span id="losses"> 0</span></div>
+        </div>
+        <div class="row buttons">
+            <div class="col-xs-4">
+
+                <button id="member1" class="button-item"></button>
+                <button id="member2" class="button-item"></button>
+                <button id="member3" class="button-item"></button>
+                <button id="member4" class="button-item"></button>
+            </div>
+        </div>
+        <div class="row userinpute">
+                <div class="col-xs-3 userNumber">Decryption points<br><br><span id="userPoints">0</span></div>
+        </div>
+    </div>
+
+
+
+    </container>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
